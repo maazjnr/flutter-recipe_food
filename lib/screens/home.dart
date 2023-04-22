@@ -36,13 +36,15 @@ class Home extends StatelessWidget {
                         style: TextStyle(
                             fontSize: defaultRadius * 1.5, color: primaryDark),
                       )),
-                  Spacer(),
+                const Spacer(),
                   TextButton(
                       onPressed: () {},
                       child: const Text(
                         "Ingredient",
                         style: TextStyle(
-                            fontSize: defaultRadius * 1.5, color: primaryDark),
+                            fontSize: defaultRadius * 1.5, 
+                            color: secondaryLight
+                            ),
                       )),
                 ],
               ),
