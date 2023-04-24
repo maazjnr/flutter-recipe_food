@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../constant/constant.dart';
+import '../widgets/search.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -48,7 +49,9 @@ class Home extends StatelessWidget {
                       )),
                 ],
               ),
-            )
+            ),
+            
+             Search()
           ],
         ),
       ),
